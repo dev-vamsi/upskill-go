@@ -12,3 +12,14 @@
 ## Module vs Package
 
 Package is just a collection of `.go` files and a Module is a collection of packages.
+
+## Data types
+
+below data types can be used with `const` and `var`
+
+1. `bool`
+2. `float32`, `float64`
+3. `int`, `int16`, `int32`, `int64`
+4. `rune`
+5. `string`
+6. `uint`, `uint8`, `uint16`, `uint32`, `uint64`

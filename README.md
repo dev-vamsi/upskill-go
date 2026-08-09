@@ -23,3 +23,30 @@ below data types can be used with `const` and `var`
 4. `rune`
 5. `string`
 6. `uint`, `uint8`, `uint16`, `uint32`, `uint64`
+
+## Functions & Control statements
+
+`func` keyword is used to define functions in Go. `main` function defined in package `main` is always automatically called when running the program.
+
+For control statements, `else` block needs be on the same line where `if` block's closing `}` ends.
+
+Below statements is the right way
+
+```go
+if a == b {
+    // do something
+} else {
+    // do something else
+}
+```
+
+the wrong way of doing is
+
+```go
+if a == b {
+    // do something
+}
+else {
+    // do something else
+}
+```

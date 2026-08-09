@@ -8,3 +8,7 @@
 4. Fast compile time
 5. Built In concurrency
 6. Simplicity
+
+## Module vs Package
+
+Package is just a collection of `.go` files and a Module is a collection of packages.

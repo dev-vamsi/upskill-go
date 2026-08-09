@@ -13,5 +13,5 @@ Meet Go 😭
 */
 
 func main() {
-	fmt.Println("Welcome, Go!")
+	fmt.Println("Hello, Go!")
 }
